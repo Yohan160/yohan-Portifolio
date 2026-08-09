@@ -57,7 +57,7 @@ export function CyberBackground() {
 
       const linkDist = w < 768 ? 110 : 150;
       for (let i = 0; i < nodes.length; i++) {
-        const n = nodes[i];
+        const n = nodes[i]!;
         if (!reduced) {
           n.x += n.vx * n.z;
           n.y += n.vy * n.z;
@@ -73,7 +73,7 @@ export function CyberBackground() {
         const near = dp < 190;
 
         for (let j = i + 1; j < nodes.length; j++) {
-          const m = nodes[j];
+          const m = nodes[j]!;
           const dx = n.x - m.x;
           const dy = n.y - m.y;
           const d = Math.hypot(dx, dy);
