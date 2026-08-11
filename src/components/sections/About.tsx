@@ -13,7 +13,7 @@ const PILLARS = [
 export function About() {
   return (
     <section id="sobre" className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 sm:py-24">
-      <SectionHeading index="01" kicker="PERFIL" title="Sobre mim" />
+      <SectionHeading index="01" kicker="PERFIL" title="Sobre mim" center />
 
       <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
         <Reveal variant="left">

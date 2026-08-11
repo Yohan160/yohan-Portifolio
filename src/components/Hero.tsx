@@ -54,9 +54,9 @@ export function Hero() {
             </span>
           </div>
 
-          <h1 className="mt-5 font-display text-[clamp(2.6rem,8vw,5.4rem)] leading-[0.92] font-bold tracking-tight">
-            <span className="block text-foreground">YOHAN</span>
-            <span className="text-gradient-gold block">CLARK</span>
+          <h1 className="mt-5 flex flex-row flex-wrap items-baseline gap-x-3 font-display text-[clamp(2rem,8vw,5.4rem)] leading-[0.92] font-bold tracking-tight">
+            <span className="text-foreground">YOHAN</span>
+            <span className="text-gradient-gold">CLARK</span>
           </h1>
 
           <div className="mt-4 flex items-center gap-3">

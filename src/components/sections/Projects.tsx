@@ -14,6 +14,7 @@ export function Projects() {
         kicker="PRÁTICA"
         title="Projetos"
         desc="Aplicação prática dos estudos em redes, programação e segurança."
+        center
       />
 
       <Reveal variant="scale">
@@ -82,14 +83,14 @@ export function Projects() {
                 <p className="font-mono text-[10px] tracking-[0.24em] text-muted-foreground">
                   TCP PORT MAP · ABSTRAÇÃO VISUAL
                 </p>
-                <div className="mt-4 grid grid-cols-4 gap-2 sm:grid-cols-6 lg:grid-cols-4">
+                <div className="mt-4 grid grid-cols-3 gap-1.5 min-w-0 sm:grid-cols-6 sm:gap-2 lg:grid-cols-4">
                   {PORTS.map((p, i) => (
                     <div
                       key={p}
                       style={{ animationDelay: `${i * 220}ms` }}
-                      className="animate-float-slow rounded-sm border border-gold/20 bg-graphite/80 px-2 py-3 text-center transition-colors hover:border-crimson/60"
+                      className="min-w-0 animate-float-slow rounded-sm border border-gold/20 bg-graphite/80 px-1.5 py-2 text-center transition-colors hover:border-crimson/60 sm:px-2 sm:py-3"
                     >
-                      <span className="block font-mono text-[11px] text-gold">{p}</span>
+                      <span className="block truncate font-mono text-[10px] text-gold sm:text-[11px]">{p}</span>
                       <span
                         className={
                           i % 3 === 0

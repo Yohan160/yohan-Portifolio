@@ -5,14 +5,16 @@ export function SectionHeading({
   kicker,
   title,
   desc,
+  center = false,
 }: {
   index: string;
   kicker: string;
   title: string;
   desc?: string;
+  center?: boolean;
 }) {
   return (
-    <Reveal variant="blur" className="mb-8">
+    <Reveal variant="blur" className={`mb-8 ${center ? "flex flex-col items-center text-center" : ""}`}>
       <div className="flex items-center gap-3">
         <span className="font-mono text-[10px] tracking-[0.3em] text-crimson">{index}</span>
         <span className="h-px w-8 bg-gradient-to-r from-crimson to-gold/40" />

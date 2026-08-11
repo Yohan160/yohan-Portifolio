@@ -58,6 +58,7 @@ export function Skills() {
         kicker="STACK DE CONHECIMENTO"
         title="Skills"
         desc="Conhecimentos em desenvolvimento contínuo, organizados por área de foco."
+        center
       />
 
       <div className="grid gap-5 md:grid-cols-2">
