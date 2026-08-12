@@ -19,23 +19,23 @@ export function Projects() {
 
       <Reveal variant="scale">
         <TiltCard accent="red" max={4} className="overflow-hidden p-0">
-          <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
-            <div className="p-6 sm:p-9">
-              <div className="flex items-center gap-3">
-                <span className="grid size-11 place-items-center rounded-sm border border-crimson/40 bg-crimson/10">
+          <div className="grid min-w-0 grid-cols-1 lg:grid-cols-[1.05fr_0.95fr]">
+            <div className="min-w-0 p-6 sm:p-9">
+              <div className="flex min-w-0 items-center gap-3">
+                <span className="grid size-11 shrink-0 place-items-center rounded-sm border border-crimson/40 bg-crimson/10">
                   <Radar className="size-5 text-crimson" />
                 </span>
                 <div className="min-w-0">
                   <p className="font-mono text-[10px] tracking-[0.24em] text-gold/80">
                     PROJETO EM DESTAQUE
                   </p>
-                  <h3 className="truncate font-display text-xl font-bold tracking-tight text-foreground sm:text-2xl">
+                  <h3 className="break-words font-display text-xl font-bold tracking-tight text-foreground sm:text-2xl">
                     Scanner de Portas em Python
                   </h3>
                 </div>
               </div>
 
-              <p className="mt-5 text-sm leading-relaxed text-muted-foreground">
+              <p className="mt-5 break-words text-sm leading-relaxed text-muted-foreground">
                 Aplicação web desenvolvida com Python e Flask para realizar varredura de portas
                 TCP de um endereço IP e identificar portas abertas. O projeto foi desenvolvido
                 para praticar programação, desenvolvimento web, redes de computadores e conceitos
@@ -77,7 +77,7 @@ export function Projects() {
             </div>
 
             {/* abstract port-scan visual */}
-            <div className="relative min-h-[280px] border-t border-gold/12 bg-[radial-gradient(circle_at_70%_30%,color-mix(in_oklab,var(--crimson)_16%,transparent),transparent_65%)] p-6 lg:border-t-0 lg:border-l">
+            <div className="relative min-h-[280px] min-w-0 border-t border-gold/12 bg-[radial-gradient(circle_at_70%_30%,color-mix(in_oklab,var(--crimson)_16%,transparent),transparent_65%)] p-6 lg:border-t-0 lg:border-l">
               <div className="grid-floor absolute inset-0 opacity-25" />
               <div className="relative">
                 <p className="font-mono text-[10px] tracking-[0.24em] text-muted-foreground">
