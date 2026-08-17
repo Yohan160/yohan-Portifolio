@@ -24,7 +24,7 @@ const COURSES = [
   {
     org: "Cisco Networking Academy",
     name: "Noções Básicas de Redes",
-    status: "Em andamento / concluído conforme atualização",
+    status: "Concluído",
   },
   { org: "Fundação Bradesco", name: "Python", status: "Em andamento" },
   { org: "ETEC Adolpho Berezin", name: "Técnico em Informática", status: "Concluído" },
