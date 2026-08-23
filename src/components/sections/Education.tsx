@@ -26,7 +26,7 @@ const COURSES = [
     name: "Noções Básicas de Redes",
     status: "Concluído",
   },
-  { org: "Fundação Bradesco", name: "Python", status: "Em andamento" },
+  { org: "Fundação Bradesco", name: "Python", status: "Concluído" },
   { org: "ETEC Adolpho Berezin", name: "Técnico em Informática", status: "Concluído" },
 ];
 
